@@ -1,0 +1,1 @@
+C:\Users\Intel\anaconda3\Lib\site-packages\spyder\widgets\github
