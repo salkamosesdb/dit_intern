@@ -1,0 +1,29 @@
+This is the mock api for a student management system, which can be accessed by both the students and the teachers, upon proper authentication.While the student can view his/her marks for the current academic year, along with the top 10 students of his batch; the teacher has the privilege of viewing the lists of all the students,a long with their details, marks and modifying the marks of the subject which that teacher teaches.
+
+In the current version, only the backend has been integrated with the api, and the follwing functions can be performed successfully:
+
+1.Allowing student login
+2.Allowing teacher login
+3.Allowing the student to access the dashboard and viewing the top students in his/her batch
+4.Allowing the student to view his/her marks in all subjects
+5.Allowing the teacher to login
+6.Allowing the teacher to view the students list
+7.Allowing the teacher to add a student
+8.Allowing the teacher to add/update the marks of a student
+
+Current Drawbacks:
+
+1.Token authentication has not been incorporated yet
+2.The teacher can edit the marks of any subject, as the current system has been made with the assumption that the students are from the same class and the class teacher is managing them
+3.The student cannot change their details
+4.The students can view their previous year results
+
+Future Scope:
+
+I plan to design the frontend using either react or angular js, and then integrate it with the exisiting api. Here are some of the functionalities that I plan to incorporate in the system:
+
+1.Allowing the student to change their email id and password
+2.The teachers can change the marks of only the subject that they teach
+3.The system will allow to manage the students of different classes
+4.The dashboard will show the top ranking students of each class
+5.Both the students and the teachers will have a profile picture, which they alone can manage.
